@@ -1,0 +1,17 @@
+
+.classpath
+.gitattributes
+.project
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.eclipse.m2e.core.prefs
+target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+target/classes/plugin.yml
+target/classes/META-INF/maven/cn.Mchaptim/NoPluginSurvivalCore/pom.xml
+target/classes/META-INF/maven/cn.Mchaptim/NoPluginSurvivalCore/pom.properties
+target/classes/META-INF/MANIFEST.MF
+target/classes/config.yml
+target/classes/cn/Mchaptim/NPSurvivalCore/Main.class
+target/classes/cn/Mchaptim/NPSurvivalCore/Listeners.class
+target/classes/cn/Mchaptim/NPSurvivalCore/Config.class
