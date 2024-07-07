@@ -10,7 +10,6 @@ public class Config {
 	public static int MaxX;
 	public static int MaxZ;
 	public static String World;
-	public static String Chat_Format;
 
 	public static void loadConfig() {
 		Main.getPlugin().saveDefaultConfig();
@@ -21,7 +20,6 @@ public class Config {
 		MaxX = config.getInt("Spawn.MaxX");
 		MaxZ = config.getInt("Spawn.MaxZ");
 		World = config.getString("Spawn.World");
-		Chat_Format = config.getString("Chat.Format");
 	}
 
 	public static int getRandomX() {

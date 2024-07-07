@@ -11,10 +11,6 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.event.player.PlayerRespawnEvent;
 
-import cn.Mchaptim.Utils.EPCore;
-import io.papermc.paper.event.player.AsyncChatEvent;
-import me.clip.placeholderapi.PlaceholderAPI;
-
 public class Listeners implements Listener {
 
 	@EventHandler
@@ -58,14 +54,4 @@ public class Listeners implements Listener {
 		e.quitMessage(null);
 	}
 
-	@EventHandler
-	void onChat(AsyncChatEvent e) {
-		if (Bukkit.getPluginManager().getPlugin("PlaceholderAPI") == null) {
-			return;
-		}
-		e.setCancelled(true);
-		String message = e.signedMessage().message();
-		String tmp = Config.Chat_Format.replaceAll("%message%", message);
-		EPCore.broadcast(PlaceholderAPI.setPlaceholders(e.getPlayer(), tmp));
-	}
 }

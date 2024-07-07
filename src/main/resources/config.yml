@@ -4,5 +4,3 @@ Spawn:
   MinZ: -5000
   MaxX: 5000
   MaxZ: 5000
-Chat:
-  Format: "%luckperms_prefix%%player_name%%luckperms_suffix% &f%message%"

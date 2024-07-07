@@ -15,3 +15,5 @@ target/classes/config.yml
 target/classes/cn/Mchaptim/NPSurvivalCore/Main.class
 target/classes/cn/Mchaptim/NPSurvivalCore/Listeners.class
 target/classes/cn/Mchaptim/NPSurvivalCore/Config.class
+target/NoPluginSurvivalCore-1.0-Mchaptim.cn.jar
+target/maven-archiver/pom.properties
